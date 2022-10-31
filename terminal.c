@@ -110,6 +110,7 @@ int launch(char **args){
 		recebe un array de argumentos do programa */
 		if(execvp(args[0], args) == -1){          
 			perror("Comando não existe. Escreva <ajuda> para conhecer os comandos.");
+			exit(0);
 		}
 
 	} else if(paiId < 0){
