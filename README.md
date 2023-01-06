@@ -1,4 +1,6 @@
 # ShellDoLacerdinha
+<h2>Observações:</h2>
+ Para rodar o terminal é necessario estar rodando em um sistema LINUX pois possui suporte ha biblioteca "sys/wait.h".Caso queira utilizar no Windows aconselho a utilizar o WSL.
 <h2>Objetivo:</h2>
 <p>Tem-se como objetivo criar um Terminal em C para a disciplina de Sistemas Operacionais.</p>
 <h2>Funcionamento:</h2>
